@@ -31,7 +31,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(1000000000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(1300000000000);
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 0;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
@@ -68,7 +68,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLuym59Ssa5koeaF
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff0001000296c6c62b18d2bb317762aa820909fd0ec71c5600bbeef8e4e1e090ce89f2dea4210195124e743b3eb34c51bb902de4f9dcc8686c3b1853b84081bd9b436f15cfd6f0";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff000100028376713ead3e5ac2c59837c0734e1d694e6ae5981a6d039b86ceb438cc25c4f8210164588078b46abf82a9501c5dd58f572656cd30023b1d88653af5121bdd001689";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
