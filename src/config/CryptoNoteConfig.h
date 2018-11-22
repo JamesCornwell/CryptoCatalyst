@@ -244,13 +244,13 @@ const char     LATEST_VERSION_URL[]                          = "https://github.c
 const std::string LICENSE_URL                                = "https://github.com/JamesCornwell/CryptoCatalyst/blob/development/LICENSE";
 const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 {
-	{  0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff, 0x00  }
+	{  0x17, 0xa2, 0xa3, 0x54, 0x51, 0x6e, 0x76, 0x82, 0x98, 0xa3, 0x8b, 0x3c, 0x5d, 0xfe, 0x3f, 0xd0  }
 };
 
 const char* const SEED_NODES[] =
 {
-	"13.86.127.234:8080",
-	"40.67.189.133:8080",
-	"13.86.37.240:8080",
+	"23.101.117.117:10101",
+	"23.101.123.196:10102",
+	"23.99.190.211:10101",
 };
 } // CryptoNote
