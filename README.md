@@ -8,6 +8,11 @@
 
 ### Installing
 
+cd C:\Users\James\Desktop\CryptoCatalyst-development\build
+set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%
+cmake -G "Visual Studio 15 2017 Win64" .. -DBOOST_ROOT=C:/local/boost_1_68_0
+MSBuild CryptoCatalyst.sln /p:Configuration=Release /m
+
 We offer binary images of the latest releases here: https://latest.turtlecoin.lol
 
 If you would like to compile yourself, read on.
