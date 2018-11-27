@@ -31,7 +31,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(1300000000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(1300000000000000);
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 0;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
@@ -46,7 +46,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 9;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 /* Premine amount */
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(10000000);
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(10000000000);
 
 /* How to generate a premine:
 
@@ -83,9 +83,9 @@ const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 10000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 5;
+const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 
-const uint64_t MINIMUM_FEE                                   = UINT64_C(13000);
+const uint64_t MINIMUM_FEE                                   = UINT64_C(13000000);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
@@ -190,7 +190,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "CryptoCatalyst";
+const char     CRYPTONOTE_NAME[]                             = "CryptoCatalystClassic";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -244,7 +244,7 @@ const char     LATEST_VERSION_URL[]                          = "https://github.c
 const std::string LICENSE_URL                                = "https://github.com/JamesCornwell/CryptoCatalyst/blob/development/LICENSE";
 const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 {
-	{  0x17, 0xa2, 0xa3, 0x54, 0x51, 0x6e, 0x76, 0x82, 0x98, 0xa3, 0x8b, 0x3c, 0x5d, 0xfe, 0x3f, 0xd0  }
+	{  0x01, 0x12, 0x01, 0x11, 0x00, 0x01, 0x10, 0x11, 0x11, 0x11, 0x00, 0x01, 0x11, 0x00, 0x01, 0x10  }
 };
 
 const char* const SEED_NODES[] =
