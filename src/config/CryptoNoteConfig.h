@@ -68,7 +68,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLuym59Ssa5koeaF
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010001ff000180ade204029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101364177e6f46384e2fdbb0c8bf5f680bbf2385a093854b036cf3e45170c91893a";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010001ff000180c8afa025029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101da6d985850a34e463119f52aa838725c7a3192c3434d5a1c5de696c833606e9e";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
@@ -250,7 +250,7 @@ const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 const char* const SEED_NODES[] =
 {
 	"67.176.94.193:11999",
-	"104.43.249.131:11999",
+	"104.43.137.213:11999",
 	"23.101.123.196:11999",
 };
 } // CryptoNote
