@@ -1,7 +1,7 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
-//
+// Copyright (c) 2018, CryptoCatalyst News Developers
 // Please see the included LICENSE file for more information.
 
 #pragma once
@@ -240,8 +240,8 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "https://github.com/JamesCornwell/cryptonote";
-const std::string LICENSE_URL                                = "https://github.com/JamesCornwell/CryptoCatalyst/blob/development/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "https://github.com/Menutra/CryptoCatalystClassic";
+const std::string LICENSE_URL                                = "https://github.com/Menutra/CryptoCatalystClassic/blob/development/LICENSE";
 const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 {
 	{  0x01, 0x12, 0x01, 0x11, 0x00, 0x01, 0x10, 0x11, 0x11, 0x11, 0x00, 0x01, 0x11, 0x00, 0x01, 0x10  }
@@ -252,4 +252,4 @@ const char* const SEED_NODES[] =
 	"149.248.15.169:11897",
 	"45.77.96.235:11897"
 };
-} // CryptoNote
+} // CryptoNote~CryptoCatalyst
