@@ -1,6 +1,5 @@
-CryptoCatalyst
 ![image](https://avatars3.githubusercontent.com/u/28834908?s=400&v=4)
-Classic
+CryptoCatalyst-Classic
 
 #### Master Build Status
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
